@@ -1,0 +1,14 @@
+.spine {
+  position: absolute;
+  left: 50%;
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(to right, #aaa, #666);
+  transform: translateX(-50%);
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+.book.opened .spine {
+  opacity: 1;
+}
